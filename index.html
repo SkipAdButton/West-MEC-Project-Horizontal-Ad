@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            Box-sizing: border-box;
+        }
+        .main{
+            width: 1000px;
+            height: 500px;
+            margin: 130px auto;
+            margin-bottom: 0;
+            border-radius: 30px;
+            background: linear-gradient(to right, #345830 50%, #F0FFF0 50%);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.456);
+            display: flex;
+            justify-content: center;
+        }
+        body{
+            background-color: #1b3818;
+        }
+        .section1{
+            width: 500px;
+            height: 500px;
+            margin-left: 268px; 
+            margin-top: -500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .section2{
+            width: 500px;
+            height: 500px;
+            margin-right: 267px;
+            margin-left: auto;
+            margin-top: -500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .insection1h2{
+            text-align: center;
+            margin: 20px;
+            /* margin-top: 130px; */
+            font-size: 3em;
+            color: #F0FFF0;
+            text-shadow: 0px 0px 5px #323632;
+        }
+        .insection1p{
+            text-align: center;
+            margin: 20px;
+            margin-top: -10px;
+            font-size: 1em;
+            color: #F0FFF0;
+            text-shadow: 0px 0px 5px #323632;
+        }
+        .insection1div{
+            background-color: #212b18;
+            width: 100px;
+            height: 100px;
+            font-size: 3em;
+            border-radius: 50%;
+            text-align: center;
+            padding-top: 12px;
+            /* margin-left: 200px; */
+            transition: width .5s ease-in-out, height .5s ease-in-out, font-size .5s ease-in-out;
+        }
+        .insection1div:hover{
+            width: 125px;
+            height: 125px;
+            font-size: 3.75em;
+        }
+        .subsection2{
+            background:linear-gradient(45deg, #476c42, #345830);
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            width: 375px;
+            height: 75px;
+            text-align: center;
+            /* padding-top: 25.5px; */
+            margin: 7px;
+            border-radius: 10px;
+            font-size: 20px;
+            color: #F0FFF0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: width .5s ease-in-out, height .5s ease-in-out, font-size .5s ease-in-out;
+        }
+        .subsection2:hover{
+            width: 412.5px;
+            height: 82.5px;
+            font-size: 25.3px;
+        }
+        .subsection2large{
+            background:linear-gradient(45deg, #a0ebc4, #94ECBE);
+            width: 375px;
+            height: 110px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(40, 40, 40, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .subp{
+            color: #002900;
+        }
+        .weo{
+            margin: 10px;
+            color: #002900;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+
+    <div class="section1">
+        <h2 class="insection1h2">Urban Plant Life</h2>
+        <p class="insection1p">Grow Happy.</p>
+        <div class="insection1div">🪴</div>
+    </div>
+    <div class="section2">
+        <h2 class="weo">What We Offer</h2>
+        <div class="subsection2"><b>Indoor Plants.</b></div>
+        <div class="subsection2"><b>Outdoor Plants.</b></div>
+        <div class="subsection2"><b>Pots & Accessories.</b></div>
+        <div class="subsection2large"><p class="subp"><b>Come Visit Us!</b></p><p class="subp">1234 Maplewood Lane</p></div>
+    </div>
+</body>
+</html>
